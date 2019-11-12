@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/list_bg"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="陌上花开，可缓缓归矣"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#5DB4B4"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/add_new"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_gravity="right"
+        android:background="#0084D8D8"
+        android:gravity="left|top"
+        android:onClick="Add"
+        android:text="+"
+        android:textColor="#2F3557"
+        android:textSize="40sp" />
+
+    <ListView
+        android:id="@+id/dairy_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

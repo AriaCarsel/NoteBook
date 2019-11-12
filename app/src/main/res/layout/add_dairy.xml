@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/add_dairy"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/title_tip"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="3"
+            android:gravity="left|center"
+            android:padding="2dp"
+            android:text="标题："
+            android:textAlignment="center"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/new_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="新的一天，新的标题！"
+            android:inputType="textPersonName"
+
+            android:padding="20dp"
+            android:text=""
+            android:textColorLink="#000000"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/new_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="今天又是元气满满的一天呢……"
+            android:gravity="start|top"
+            android:layout_margin="20dp"
+            android:inputType="textMultiLine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:id="@+id/new_time"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="match_parent"
+            android:text="创建时间"
+            android:gravity="right|top"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
